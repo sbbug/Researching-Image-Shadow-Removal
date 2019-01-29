@@ -1,3 +1,6 @@
+
+#阴影去除算法
+#先寻找阴影，然后再去除阴影
 import cv2
 import numpy as np
 #读取图像数据到矩阵
