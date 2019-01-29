@@ -95,9 +95,9 @@ def getLAB(img):
     cv2.destroyAllWindows()
 
 if __name__ =="__main__":
-   img = readImg("./image/one.jpg")
-   l = [120,160]
-   b = [125,130]
+   img = readImg("./image/res.jpg")
+   l = [40, 80]
+   b = [120, 150]
    #getLAB(img)
    img_lab = imgToLAB(img)
    res = getPointSetByL(img_lab,l,b)
